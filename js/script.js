@@ -1,7 +1,7 @@
-$(document).ready(function(){
+$(document).ready(function() {
     $('.carousel').slick({
         autoplay: true,
-        autoplaySpeed: 2000,  // Muda a imagem a cada 2 segundos
+        autoplaySpeed: 2000, // Muda a imagem a cada 2 segundos
         dots: true,
         arrows: true,
     });
@@ -12,7 +12,7 @@ $(document).ready(function(){
             const hash = this.hash;
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 800, function(){
+            }, 800, function() {
                 window.location.hash = hash;
             });
         }
@@ -21,5 +21,14 @@ $(document).ready(function(){
     $('#contact-form').on('submit', function(event) {
         event.preventDefault();
         alert('Mensagem enviada com sucesso!');
+    });
+
+    $('#theme-toggle').on('click', function() {
+        $('body').toggleClass('dark-theme');
+    });
+
+    $('.nav-toggle').on('click', function() {
+        $('nav ul').toggleClass('show');
+        $(this).toggleClass('open');
     });
 });
