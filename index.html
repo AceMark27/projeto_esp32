@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Refrigeração com ESP32</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projeto">Projeto</a></li>
+                <li><a href="#protótipo">Protótipo 3D</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#video">Vídeo</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="carousel">
+            <div><img src="assets/WhatsApp Image 2024-06-15 at 20.00.47.jpeg" alt="Imagem do Projeto 1"></div>
+            <div><img src="assets/WhatsApp Image 2024-06-15 at 19.11.59.jpeg" alt="Imagem do Projeto 2"></div>
+            <div><img src="assets/WhatsApp Image 2024-06-15 at 19.12.00.jpeg" alt="Imagem do Projeto 3"></div>
+        </div>
+        <div class="hero">
+            <h1>Bem-vindo ao nosso Projeto de Sistema de Refrigeração com ESP32</h1>
+            <p>Utilizando tecnologia avançada para manter sua temperatura sob controle.</p>
+        </div>
+    </section>
+
+    <section id="projeto">
+        <h2>O Projeto</h2>
+        <p>Nosso sistema de refrigeração utiliza um ESP32 para controlar automaticamente a temperatura de uma caixa de isopor. Quando a temperatura registrada pelo sensor DHT11 atinge um valor específico, as ventoinhas são acionadas para resfriar a caixa. O sistema também pode ser controlado via aplicativo pela plataforma Blynk.</p>
+    </section>
+
+    <section id="protótipo">
+        <h2>Protótipo 3D</h2>
+        <div class="prototype-images">
+            <img src="assets/WhatsApp Image 2024-05-24 at 19.14.05.jpeg" alt="Protótipo 3D 1">
+            <img src="assets/WhatsApp Image 2024-05-24 at 19.14.06.jpeg" alt="Protótipo 3D 2">
+        </div>
+        <!--<div class="model-viewer-container">
+            <model-viewer src="assets/prototype.glb" alt="Protótipo 3D" auto-rotate camera-controls></model-viewer>
+        </div>-->
+    </section>
+
+    <section id="tecnologias">
+        <h2>Tecnologias Utilizadas</h2>
+        <div class="tech-container">
+            <div class="tech-item">
+                <img src="https://cdn.awsli.com.br/600x700/2492/2492563/produto/2126304918cfeb0565e.jpg" alt="ESP32">
+                <h3>ESP32</h3>
+                <p>Microcontrolador usado para automação do sistema.</p>
+            </div>
+            <div class="tech-item">
+                <img src="https://cdn.awsli.com.br/800x800/78/78150/produto/3440956/modulo_umidade_temperatura_dht11-z97e6uxojd.png" alt="DHT11">
+                <h3>DHT11</h3>
+                <p>Sensor de temperatura e umidade para monitoramento.</p>
+            </div>
+            <div class="tech-item">
+                <img src="https://cdn.awsli.com.br/2500x2500/468/468162/produto/19414396/cfc86999de.jpg" alt="LCD Display">
+                <h3>LCD Display</h3>
+                <p>Tela LCD para exibir a temperatura do projeto.</p>
+            </div>
+            <div class="tech-item">
+                <img src="https://www.researchgate.net/profile/Shehab-Noor/publication/345431623/figure/fig49/AS:955186143039504@1604745531967/Official-Blynk-logo_Q320.jpg" alt="Blynk">
+                <h3>Blynk</h3>
+                <p>Plataforma para controle remoto e monitoramento via aplicativo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe">
+        <h2>Equipe</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="assets/423816215_744281177660807_6028358227966660712_n.jpg" alt="Membro 1">
+                <h3>Marcos Corrêa Nunes</h3>
+                <p>Função: Desenvolvedor de Software</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/Captura de tela 2024-06-16 120630.png" alt="Membro 2">
+                <h3>Nome do Membro 2</h3>
+                <p>Função: Engenheiro Eletrônico</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/Captura de tela 2024-06-16 120648.png" alt="Membro 3">
+                <h3>Nome do Membro 3</h3>
+                <p>Função: Designer</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/Captura de tela 2024-06-16 120706.png" alt="Membro 4">
+                <h3>Nome do Membro 4</h3>
+                <p>Função: Engenheiro de Software</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/Captura de tela 2024-06-16 121030.png" alt="Membro 5">
+                <h3>Nome do Membro 5</h3>
+                <p>Função: Técnico de Hardware</p>
+            </div>
+            <div class="team-member">
+                <img src="assets/IMG-20240423-WA0017.jpg" alt="Membro 6">
+                <h3>Nome do Membro 6</h3>
+                <p>Função: Gerente de Projeto</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="video">
+        <h2>Vídeo do Projeto</h2>
+        <video controls>
+            <source src="assets/video.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeo.
+        </video>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sistema de Refrigeração com ESP32. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
