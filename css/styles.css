@@ -294,6 +294,104 @@ footer {
     }
 }
 
+/* Seção de Download */
+#download {
+    padding: 50px 20px;
+    background: #f4f4f4; /* Fundo suave */
+    color: #333;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px auto; /* Centraliza a seção horizontalmente */
+    max-width: 800px; /* Define uma largura máxima para centralizar */
+}
+
+#download h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#download p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background: #333; /* Cor do botão */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: box-shadow 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra 3D */
+}
+
+.download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Efeito de elevação */
+}
+
+/* Seção de Contato */
+#contato {
+    padding: 50px 20px;
+    background: #f4f4f4; /* Fundo suave */
+    color: #333;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px auto; /* Centraliza a seção horizontalmente */
+    max-width: 800px; /* Define uma largura máxima para centralizar */
+}
+
+#contato h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra 3D */
+}
+
+form label {
+    margin-top: 10px;
+    text-align: left;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra interna para campo 3D */
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra 3D */
+}
+
+form button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Efeito de elevação */
+}
+
 .dark-theme {
     background-color: #121212;
     color: #e0e0e0;
@@ -312,3 +410,19 @@ footer {
     background-color: #121212;
     color: #e0e0e0;
 }
+.dark-theme .hero {
+    background-color: #5e5e5e;
+}
+
+.dark-theme .tech-item,.dark-theme .team-member {
+
+    background-color: #5e5e5e;
+
+    flex: 1 1 30%;
+    box-shadow: 0 0 10px rgba(0, 202, 253, 0.452);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+

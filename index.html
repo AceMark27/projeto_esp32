@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
@@ -15,7 +16,7 @@
     <header>
         <nav>
             <div class="nav-container">
-                <div class="nav-logo">Refrigeração com ESP3</div>
+                <div class="nav-logo">Refrigeração com ESP32</div>
                 <button class="nav-toggle">
                     <div class="hamburger"></div>
                 </button>
@@ -32,7 +33,7 @@
             </div>
         </nav>
         
-    </header>
+    </header> 
 
     <section id="home">
         <div class="carousel">
@@ -107,7 +108,7 @@
                 <p></p>
             </div>
             <div class="team-member">
-                <img src="assets\WhatsApp Image 2024-06-16 at 21.04.19.jpeg" alt="Membro 4">
+                <img src="assets\WhatsApp Image 2024-06-16 at 21.43.39.jpeg" alt="Membro 4">
                 <h3>Marcos Vinicios da Silva Lima</h3>
                 <p></p>
             </div>
@@ -134,7 +135,9 @@
 
     <section id="contato">
         <h2>Contato</h2>
-        <form id="contact-form">
+        <form id="contact-form" action="https://formsubmit.co/marcoscorreanunes@hotmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Novo contato pelo site!">
+            <input type="hidden" name="_next" value="thanks.html">
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
@@ -145,10 +148,10 @@
         </form>
     </section>
 
-    <section id="artigo">
-        <h2>Baixar Artigo</h2>
-        <p>Baixe o artigo completo sobre nosso projeto de sistema de refrigeração com ESP32.</p>
-        <a href="assets/Sistema de Refrigeração com ESP32.pdf" download="Artigo_Refrigeracao_ESP32.pdf" class="download-btn">Baixar Artigo</a>
+    <section id="download">
+        <h2>Baixe o Artigo Completo</h2>
+        <p>Faça o download do nosso artigo detalhado sobre o projeto e aprenda mais sobre como construímos o sistema de refrigeração com ESP32.</p>
+        <a href="assets/Controle_de_Refrigeracao_.pdf" class="download-btn" download>Baixar Artigo</a>
     </section>
 
     <footer>
